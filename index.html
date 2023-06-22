@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="laptop.svg" class="logo-img">
+                <p id="logo-text">Dex Website</p>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="#home">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#projects">Projects</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <div id="home" class="gridify">
+            <!-- <img id="home-img" src="./img/grid.jpg" class="imgs"> -->
+            <div class="img-text">
+                <a href="#" class="heading-link">Welcome to Dex's Portfolio!</a>
+                <p>I am a passionate and self motivated college student currently studying Computer Science!</p>
+            </div>
+        </div>
+
+        <div id="about" class="gridify">
+            <div id="about-text" class="img-text">
+                <a href="#" class="heading-link">Skills and Talents</a>
+                <ul>
+                    <li> Proficient in Python, JavaScript</li>
+                    <li> Experience with Git and version control</li>
+                    <li> Knowledge on Data Structures and Algorithms</li>
+                    <li> Well versed with Unix/Linux System Administration</li>
+                    <li> Knowledge on Computer networks and tools</li>
+                    <li> 90 WMP touch typing</li>
+                    <li>Motivated to try new technologies and learn something new everyday</li>
+                </ul>
+            </div>
+        </div> 
+
+        <div id="projects" class="gridify">
+            <div id="projects-text" class="img-text">
+                <a href="#" class="heading-link">My Projects</a>
+                <div class="button-grid">
+                    <a href="https://github.com/dex-0/ishin-countdown">ishin-countdown</a>
+                </div>
+            </div>
+        </div> 
+
+        <div id="contact" class="gridify">
+            <div id="contact-text" class="img-text">
+                <a href="#" class="heading-link">My Contact Details</a>
+                <ul>
+                    <li>Email: dex17@gmail.com</li>
+                    <li>Github: <a href="https://github.com/dex-0">DexGit</a></li>
+                </ul>
+                <p>Get in touch!</p>
+                <form onsubmit="alert('Submitted!')">
+                    <input id="email" type="email" placeholder="Enter Email"/>
+                    <br>
+                    <input id="message" type="message" placeholder="Enter message"/>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div> 
+
+        <!-- <script src="script.js"></script> -->
+    </body>
+</html>
